@@ -1,2 +1,17 @@
+
 <h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="alert alert-success" role="alert">
+        Number of products: <strong><%= @product_count %></strong> products
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="alert alert-success" role="alert">
+        Number of categories: <strong><%= @category_count %></strong> categories
+      </div>
+    </div>
+  </div>
+</div>
+
