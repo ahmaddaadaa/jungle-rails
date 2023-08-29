@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
- 
+  
+  get '/login', to: 'sessions#new'
+  post '/login', to: 'sessions#create'
+  delete '/logout', to: 'sessions#destroy'
   get '/about', to: 'about#index'
   get 'about/index'
   root to: 'products#index'
+
   
+  resources :users, only: [:new, :create]
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
 
@@ -11,6 +16,7 @@ Rails.application.routes.draw do
     post   :add_item
     post   :remove_item
   end
+
 
   resources :orders, only: [:create, :show]
 
