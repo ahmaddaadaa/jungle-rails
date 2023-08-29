@@ -1,0 +1,12 @@
+<h1>Categories</h1>
+
+<!-- Category Form -->
+<%= render 'form' %>
+
+<!-- List of Categories -->
+<h2>Existing Categories</h2>
+<ul>
+  <% @categories.each do |category| %>
+    <li><%= category.name %></li>
+  <% end %>
+</ul>
