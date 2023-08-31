@@ -2,7 +2,7 @@
 
 ## Main Page View:
 ***
-![Jungle](https://github.com/ahmaddaadaa/jungle-rails/raw/main/docs/jungle.png)
+![Jungle](https://github.com/ahmaddaadaa/jungle-rails/tree/master/docs/jungle.png)
 ***
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
@@ -16,6 +16,7 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
+9. Run `npx cypress open` to start Cypress
 
 ## Database
 
