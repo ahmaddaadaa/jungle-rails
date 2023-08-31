@@ -1,4 +1,4 @@
-cd {
+{
   "name": "new",
   "private": true,
   "dependencies": {
