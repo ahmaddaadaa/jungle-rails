@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     @user.email.downcase!
-    if @user.save
+    if @user.save!
       session[:user_id] = @user.id # Auto login after registration
       redirect_to root_path, notice: 'Account created successfully!'
     else
