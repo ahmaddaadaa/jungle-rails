@@ -2,7 +2,7 @@
 
 ## Main Page View:
 ***
-![Jungle](https://github.com/ahmaddaadaa/jungle-rails/tree/master/docs/jungle.png)
+![Jungle](https://github.com/ahmaddaadaa/jungle-rails/blob/master/docs/jungle.png?raw=true)
 ***
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
