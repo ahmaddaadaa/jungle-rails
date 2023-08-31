@@ -1,5 +1,9 @@
 # Jungle
 
+## Main Page View:
+***
+![Jungle](https://github.com/ahmaddaadaa/jungle-rails/raw/main/docs/jungle.png)
+***
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
 ## Setup
@@ -29,3 +33,18 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## New Dependencies (Updated)
+
+- Rails ActionCable (Version ^6.0.0)
+- Rails ActiveStorage (Version ^6.0.0)
+- Rails UJS (Version ^6.0.0)
+- Rails Webpacker (Version 5.4.0)
+- Turbolinks (Version ^5.2.0)
+- Webpack (Version ^4.46.0)
+- Webpack CLI (Version ^3.3.12)
+
+## New Dev Dependencies
+
+- Cypress (Version ^9.7.0)
+- Webpack Dev Server (Version ^3.11.2)
