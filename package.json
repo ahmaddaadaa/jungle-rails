@@ -1,4 +1,4 @@
-cd {
+{
   "name": "new",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@ cd {
   },
   "version": "0.1.0",
   "devDependencies": {
+    "cypress": "^9.7.0",
     "webpack-dev-server": "^3.11.2"
   }
 }
